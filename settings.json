@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 8000,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.useSystemClipboard": true,
+    "vim.startInInsertMode": true,
+    "vim.ignorecase": false,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.useCtrlKeys": false,
+    "vim.overrideCopy": false
+}
