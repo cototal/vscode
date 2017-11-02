@@ -3,6 +3,16 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 8000,
     "files.eol": "\n",
+    "files.exclude": {
+        // jetBrains config
+        "**/.idea": true,
+        // Keep here so it can be easily turned back on
+        "**/.git": true,
+        // Symfony cache
+        "**/var/cache": true,
+        // Composer bundles
+        "**/vendor": false
+    },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
@@ -17,5 +27,8 @@
     "vim.ignorecase": false,
     "vim.mouseSelectionGoesIntoVisualMode": false,
     "vim.useCtrlKeys": false,
-    "vim.overrideCopy": false
+    "vim.overrideCopy": false,
+    "[ruby]": {
+        "editor.tabSize": 2
+    }
 }

@@ -14,5 +14,9 @@
         "key": "ctrl+alt+x",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.terminal.focus"
     }
 ]
