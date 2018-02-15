@@ -18,5 +18,9 @@
     {
         "key": "ctrl+shift+a",
         "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.files.action.focusFilesExplorer"
     }
 ]

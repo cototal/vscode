@@ -21,7 +21,6 @@
     "terminal.integrated.fontFamily": "Source Code Pro",
     "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "newUntitledFile",
-    "vim.disableAnnoyingNeovimMessage": true,
     "vim.useSystemClipboard": true,
     "vim.startInInsertMode": true,
     "vim.ignorecase": false,
@@ -30,5 +29,20 @@
     "vim.overrideCopy": false,
     "[ruby]": {
         "editor.tabSize": 2
-    }
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [";"],
+            "after": [":"]
+        }
+    ]
 }
