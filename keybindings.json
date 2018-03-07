@@ -1,12 +1,12 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+alt+right",
+        "key": "ctrl+alt+l",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+alt+left",
+        "key": "ctrl+alt+h",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
@@ -22,5 +22,13 @@
     {
         "key": "shift+alt+e",
         "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
     }
 ]
