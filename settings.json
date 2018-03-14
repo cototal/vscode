@@ -1,5 +1,10 @@
 {
     "editor.acceptSuggestionOnEnter": "off",
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+        "markdown": "html",
+        "javascript": "javascriptreact"
+    },
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 8000,
     "files.eol": "\n",
@@ -48,5 +53,6 @@
             "after": [":"]
         }
     ],
-    "workbench.colorTheme": "Abyss"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "explorer.confirmDragAndDrop": false
 }
