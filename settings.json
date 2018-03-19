@@ -41,6 +41,9 @@
     "[yaml]": {
         "editor.tabSize": 2
     },
+    "[haml]": {
+        "editor.tabSize": 2
+    },
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
@@ -51,6 +54,20 @@
         {
             "before": [";"],
             "after": [":"]
+        },
+        {
+            "before": ["u"],
+            "after": [],
+            "commands": [
+                {"command": "undo", "args": []}
+            ]
+        },
+        {
+            "before": ["<C-r>"],
+            "after": [],
+            "commands": [
+                {"command": "redo", "args": []}
+            ]
         }
     ],
     "workbench.colorTheme": "Monokai Dimmed",

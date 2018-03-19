@@ -30,5 +30,21 @@
     {
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-solargraph.search"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "extension.vim_ctrl+r"
     }
 ]
