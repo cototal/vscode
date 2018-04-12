@@ -46,5 +46,9 @@
     {
         "key": "ctrl+r",
         "command": "extension.vim_ctrl+r"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.files.action.refreshFilesExplorer"
     }
 ]

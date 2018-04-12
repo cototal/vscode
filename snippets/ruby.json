@@ -27,5 +27,13 @@
 			"  $2",
 			"end"
 		]
+	},
+	"Rails Logger": {
+		"prefix": "rlog",
+		"body": [
+			"Rails.logger.debug \"*\" * 30",
+			"Rails.logger.debug $1",
+			"Rails.logger.debug \"*\" * 30"
+		]
 	}
 }
