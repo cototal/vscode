@@ -1,4 +1,5 @@
 {
+    "csv-preview.lineNumbers": true,
     "editor.acceptSuggestionOnEnter": "off",
     "emmet.excludeLanguages": [],
     "emmet.includeLanguages": {
