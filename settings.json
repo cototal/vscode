@@ -6,6 +6,9 @@
         "markdown": "html",
         "javascript": "javascriptreact"
     },
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 8000,
     "files.eol": "\n",
@@ -48,6 +51,9 @@
     "[slim]": {
         "editor.tabSize": 2
     },
+    "[jade]": {
+        "editor.tabSize": 2
+    },
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
@@ -75,5 +81,7 @@
         }
     ],
     "workbench.colorTheme": "Monokai Dimmed",
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0
 }
