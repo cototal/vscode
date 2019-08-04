@@ -1,13 +1,9 @@
 {
-    "csv-preview.lineNumbers": true,
     "editor.acceptSuggestionOnEnter": "off",
     "emmet.excludeLanguages": [],
     "emmet.includeLanguages": {
         "markdown": "html",
-        "javascript": "javascriptreact"
-    },
-    "files.associations": {
-        "*.js": "javascriptreact"
+        "ecr": "html"
     },
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 8000,
@@ -30,22 +26,10 @@
     "terminal.integrated.fontFamily": "Source Code Pro",
     "window.menuBarVisibility": "toggle",
     "workbench.startupEditor": "newUntitledFile",
-    "vim.useSystemClipboard": true,
-    "vim.startInInsertMode": true,
-    "vim.ignorecase": false,
-    "vim.mouseSelectionGoesIntoVisualMode": false,
-    "vim.useCtrlKeys": false,
-    "vim.overrideCopy": false,
-    "vim.handleKeys": {
-        "<C-d>": false
-    },
     "[ruby]": {
         "editor.tabSize": 2
     },
     "[yaml]": {
-        "editor.tabSize": 2
-    },
-    "[haml]": {
         "editor.tabSize": 2
     },
     "[slim]": {
@@ -54,34 +38,12 @@
     "[jade]": {
         "editor.tabSize": 2
     },
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "k"],
-            "after": ["<esc>"]
-        }
-    ],
-    "vim.otherModesKeyBindingsNonRecursive": [
-        {
-            "before": [";"],
-            "after": [":"]
-        },
-        {
-            "before": ["u"],
-            "after": [],
-            "commands": [
-                {"command": "undo", "args": []}
-            ]
-        },
-        {
-            "before": ["<C-r>"],
-            "after": [],
-            "commands": [
-                {"command": "redo", "args": []}
-            ]
-        }
-    ],
+    "[crystal]": {
+        "editor.tabSize": 2
+    },
     "workbench.colorTheme": "Monokai Dimmed",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": true
 }
