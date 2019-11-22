@@ -43,12 +43,13 @@
     "[crystal]": {
         "editor.tabSize": 2
     },
-    "workbench.colorTheme": "Monokai Dimmed",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "extensions.ignoreRecommendations": true,
     "python.pythonPath": "python3",
     "git.ignoreLegacyWarning": true,
-    "editor.renderWhitespace": "none"
+    "editor.renderWhitespace": "none",
+    "editor.accessibilitySupport": "off",
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
