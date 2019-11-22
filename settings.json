@@ -3,7 +3,9 @@
     "emmet.excludeLanguages": [],
     "emmet.includeLanguages": {
         "markdown": "html",
-        "ecr": "html"
+        "ecr": "html",
+        "razor": "html",
+        "aspnetcorerazor": "html"
     },
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 8000,
@@ -45,5 +47,8 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "python.pythonPath": "python3",
+    "git.ignoreLegacyWarning": true,
+    "editor.renderWhitespace": "none"
 }
