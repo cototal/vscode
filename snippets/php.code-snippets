@@ -15,6 +15,16 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"PHP File": {
+		"prefix": "php",
+		"body": [
+			"<?php",
+			"",
+			"class $1",
+			"{",
+			"}"
+		]
+	},
 	"PHP Constructor": {
 		"scope": "php",
 		"prefix": "ctor",

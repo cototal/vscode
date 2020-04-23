@@ -46,5 +46,10 @@
     "window.zoomLevel": 0,
     "extensions.ignoreRecommendations": true,
     "editor.accessibilitySupport": "off",
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderWhitespace": "none",
+    "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.quickSuggestions": {
+        "comments": true
+    }
 }

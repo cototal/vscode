@@ -32,23 +32,31 @@
         "command": "-workbench.action.terminal.new"
     },
     {
-        "key": "ctrl+shift+r",
-        "command": "workbench.action.openRecent"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.openRecent"
-    },
-    {
-        "key": "ctrl+shift+r",
-        "command": "-solargraph.search"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "extension.vim_ctrl+r"
-    },
-    {
         "key": "ctrl+alt+r",
         "command": "workbench.files.action.refreshFilesExplorer"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+ctrl+\\",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+alt+[",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
     }
 ]
