@@ -58,5 +58,40 @@
         "key": "ctrl+shift+\\",
         "command": "-editor.action.jumpToBracket",
         "when": "editorTextFocus"
+    },
+    {
+        "command": "namespaceResolver.import",
+        "key": "cmd+alt+i",
+        "when": "editorTextFocus"
+    },
+    {
+        "command": "namespaceResolver.importAll",
+        "key": "cmd+alt+a",
+        "when": "editorTextFocus && isMac"
+    },
+    {
+        "command": "namespaceResolver.expand",
+        "key": "cmd+alt+e",
+        "when": "editorTextFocus && isMac"
+    },
+    {
+        "command": "namespaceResolver.sort",
+        "key": "cmd+alt+s",
+        "when": "editorTextFocus && isMac"
+    },
+    {
+        "command": "namespaceResolver.highlightNotImported",
+        "key": "cmd+alt+n",
+        "when": "editorTextFocus && isMac"
+    },
+    {
+        "command": "namespaceResolver.highlightNotUsed",
+        "key": "cmd+alt+u",
+        "when": "editorTextFocus && isMac"
+    },
+    {
+        "command": "namespaceResolver.generateNamespace",
+        "key": "cmd+alt+g",
+        "when": "editorTextFocus && isMac"
     }
 ]
