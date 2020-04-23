@@ -49,7 +49,6 @@
     "extensions.ignoreRecommendations": true,
     "python.pythonPath": "python3",
     "git.ignoreLegacyWarning": true,
-    "editor.renderWhitespace": "none",
     "editor.accessibilitySupport": "off",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.renderWhitespace": "none",
