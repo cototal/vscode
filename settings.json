@@ -55,5 +55,9 @@
     "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.quickSuggestions": {
         "comments": true
-    }
+    },
+    "vim.useSystemClipboard": true,
+    "go.formatTool": "goimports",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false
 }
